@@ -1,0 +1,176 @@
+{
+  "stranka1": {
+    "titulek": "Přehled vašeho majetku",
+    "uvodni_text": "Diverzifikace příjmů, například prostřednictvím vedlejších příjmů nebo investic, může zvýšit naši finanční bezpečnost. Když přemýšlíme o budoucnosti a strategicky investujeme, zajišťujeme si lepší životní úroveň a klidnou mysl. Důležité je také udržovat si přehled o svých příjmech a pravidelně přehodnocovat své finanční cíle. Tím můžeme efektivně plánovat a přizpůsobovat se měnícím se podmínkám.",
+    "cisla_hodnota": 215000,
+    "graf_data": [183000, 225000, -215000],
+    "sekce": {
+      "financni_aktiva": {
+        "nazev": "Finanční aktiva",
+        "hodnota": 183000,
+        "polozky": [
+          { "label": "Hotovost", "val": 500, "ikona": "❌" },
+          { "label": "Bankovní účty", "val": 58000, "ikona": "✅" },
+          { "label": "Fondy & Akcie", "val": 125000, "ikona": "✅" },
+          { "label": "Dluhové CP", "val": 0, "ikona": "❌" },
+          { "label": "Deriváty", "val": 0, "ikona": "❌" },
+          { "label": "Kryptoměny", "val": 0, "ikona": "❌" }
+        ]
+      },
+      "nemovitosti": {
+        "nazev": "Nemovitosti",
+        "hodnota": 225000,
+        "polozky": [
+          { "label": "Vlastní bydlení", "val": 3500000, "ikona": "❌" },
+          { "label": "Hypotéka na bydlení", "val": -2525000, "ikona": "⚠️" },
+          { "label": "Investiční nemovitost", "val": 2450000, "ikona": "✅" },
+          { "label": "Investiční hypotéka", "val": -2225000, "ikona": "❌" },
+          { "label": "Nemovitostní fondy", "val": 0, "ikona": "❌" }
+        ]
+      },
+      "movity_majetek": {
+        "nazev": "Movitý majetek",
+        "hodnota": -215000,
+        "polozky": [
+          { "label": "Auta & Stroje", "val": 250000, "ikona": "❌" },
+          { "label": "Firemní podíly", "val": 125000, "ikona": "⚠️" },
+          { "label": "Komodity", "val": 100000, "ikona": "✅" },
+          { "label": "Umění", "val": 0, "ikona": "❌" },
+          { "label": "Zvířata", "val": 200000, "ikona": "✅" },
+          { "label": "Úvěry", "val": -455000, "ikona": "⚠️" }
+        ]
+      }
+    }
+  },
+  "stranka2": {
+    "titulek": "Detailní přehled majetku",
+    "sekce_detaily": [
+      {
+        "kategorie": "Nemovitosti",
+        "ikona": "fa-house",
+        "popis": "Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aliquam erat volutpat. Aliquam erat volutpat.",
+        "polozky": [
+          {
+            "nazev": "Investiční nemovitost",
+            "lokalita": "Brno, Jugoslávská 18",
+            "vynos": "5-8,5% p.a.",
+            "parametry": "2+1",
+            "aktiva_hodnota": 2450000,
+            "horizont": "Střednědobý",
+            "pasiva_hodnota": -2250000,
+            "pasiva_label": "Hypotéka",
+            "banka": "Komerční banka 3,55% p.a.",
+            "obdobi": "15.8. 2024 do 15. 8. 2034"
+          }
+        ]
+      },
+      {
+        "kategorie": "Finanční aktiva",
+        "ikona": "money-bill-1",
+        "popis": "Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aliquam erat volutpat. Aliquam erat volutpat.",
+        "polozky": [
+          {
+            "nazev": "INVESTIKA a.s.",
+            "typ": "Otevřený podílový fond NEMO",
+            "kratky_typ": "Podílový fond",
+            "vynos": "5-8,5% p.a.",
+            "obdobi": "15.8. 2024 do 15. 8. 2034",
+            "aktiva_hodnota": 125000,
+            "likvidita": "K dispozici do týdne",
+            "horizont": "Střednědobý"
+          },
+          {
+            "nazev": "Komerční banka a.s.",
+            "typ": "Spořící účet",
+            "vynos": "5-8,5% p.a.",
+            "obdobi": "15.8. 2024 do 15. 8. 2034",
+            "aktiva_hodnota": 8000,
+            "likvidita": "K dispozici do týdne",
+            "horizont": "Střednědobý"
+          },
+          {
+            "nazev": "Fio Banka a.s.",
+            "typ": "Spořící účet",
+            "vynos": "5-8,5% p.a.",
+            "obdobi": "15.8. 2024 do 15. 8. 2034",
+            "aktiva_hodnota": 50000,
+            "likvidita": "K dispozici do týdne",
+            "horizont": "Střednědobý"
+          }
+        ]
+      }
+    ]
+  },
+   "stranka3": {
+       "movity_majetek": [
+      {
+        "ikona": "check",
+        "hodnota": "250 000 Kč",
+        "sub_text": "BMW x320d",
+        "titulek": "Auto",
+        "vynos": "5 - 8,5 % p.a.",
+        "obdobi": "",
+        "tagy": ["Auta & Stroje", "Aktiva", "K dispozici do týdne", "Dlouhodobý"]
+      },
+      {
+        "ikona": "warn",
+        "hodnota": "- 450 000 Kč",
+        "sub_text": "Moneta a.s.",
+        "titulek": "Spotřebitelský úvěr",
+        "vynos": "5 - 8,5 % p.a.",
+        "obdobi": "od 15.8. 2024 do 15. 8. 2034",
+        "tagy": ["Úvěr", "Pasiva", "Dlouhodobý"]
+      },
+      {
+        "ikona": "check",
+        "hodnota": "100 000 Kč",
+        "sub_text": "Golden Gate a.s.",
+        "titulek": "Golden Gate a.s.",
+        "vynos": "5 - 8,5 % p.a.",
+        "obdobi": "od 15.8. 2024 do 15. 8. 2034",
+        "tagy": ["Drahé kovy", "Aktiva", "K dispozici do týdne", "Střednědobý"]
+      }
+    ],
+    "bilance": {
+      "aktiva": "4 050 000 Kč",
+      "ziskovost": "7.67 %",
+      "pasiva": "3 900 000 Kč",
+      "nakladovost": "4,5 %",
+      "cisty_majetek": "150 000 Kč",
+      "pomer_pasiv": "24%"
+    }
+  
+  },
+  "stranka4": {
+    "sekce_horizont": {
+      "titulek": "Horizont",
+      "popis": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis pulvinar. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duisante orci, molestie vitae vehicula venenatis, tincidunt acpede.",
+      "data": [
+        { "label": "Krátkodobý", "hodnota": "200 000 Kč", "procent": 20, "color": "#D6B89E" },
+        { "label": "Střednědobý", "hodnota": "500 000 Kč", "procent": 45, "color": "#D6A97E" },
+        { "label": "Dlouhodobý", "hodnota": "360 726 Kč", "procent": 35, "color": "#927355" }
+      ]
+    },
+    "sekce_aktiva_pasiva": {
+      "titulek": "Aktiva a pasiva",
+      "popis": "Pojmem aktiva se označuje vše, co vlastníme náš majetek. Je to vše, co jsme nabyli a od čeho se očekává, že přinese ekonomický užitek v budoucnu, například hotovost, akcie, dluhopisy a nemovitosti. Pojmem pasiva se označuje vše, z čeho byl náš majetek pořízen. Jsou to zdroje financování aktiv.",
+      "data": [
+        { "label": "Aktiva", "hodnota": "4 050 000 Kč", "procent": 55, "color": "#D6B89E" },
+        { "label": "Pasiva", "hodnota": "3 900 000 Kč", "procent": 45, "color": "#927355" }
+      ]
+    },
+    "sekce_likvidita": {
+      "titulek": "Likvidita",
+      "popis": "Likvidita je ukazatel, který vypovídá o tom, jak rychle lze investici proměnit na hotové peníze. Obecně řečeno: čím vyšší je likvidita určitého produktu, tím rychleji se dá investice zpeněžit.",
+      "data": [
+        { "label": "Krátkodobá", "hodnota": "200 000 Kč", "procent": 30, "color": "#D6B89E" },
+        { "label": "Střednědobá", "hodnota": "500 000 Kč", "procent": 70, "color": "#927355" }
+      ]
+    },
+    "diverzifikace": {
+      "titulek": "Vaše portfolio je diverzifikované",
+      "procent": "78%",
+      "text": "Míra vaší diverzifikace je o 78 % lepší než průměr. Vaše prostředky jsou likvidní a dobře zajištěny."
+    }
+  }
+}
