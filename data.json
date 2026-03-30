@@ -24,7 +24,7 @@
           { "label": "Vlastní bydlení", "val": 3500000, "ikona": "❌" },
           { "label": "Hypotéka na bydlení", "val": -2525000, "ikona": "⚠️" },
           { "label": "Investiční nemovitost", "val": 2450000, "ikona": "✅" },
-          { "label": "Investiční hypotéka", "val": -2225000, "ikona": "❌" },
+          { "label": "Investiční hypotéka", "val": -2225000, "ikona": "⚠️" },
           { "label": "Nemovitostní fondy", "val": 0, "ikona": "❌" }
         ]
       },
@@ -48,7 +48,7 @@
       {
         "kategorie": "Nemovitosti",
         "ikona": "fa-house",
-        "popis": "Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aliquam erat volutpat. Aliquam erat volutpat.",
+        "popis": "Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aliquam erat volutpat. Aliquam erat volutpat. Etiam dui sem, fermentum vitae, sagit tis id, malesuada in, quam.",
         "polozky": [
           {
             "nazev": "Investiční nemovitost",
@@ -57,6 +57,7 @@
             "parametry": "2+1",
             "aktiva_hodnota": 2450000,
             "horizont": "Střednědobý",
+            "kratky_typ": "Investiční nemovitost",
             "pasiva_hodnota": -2250000,
             "pasiva_label": "Hypotéka",
             "banka": "Komerční banka 3,55% p.a.",
@@ -66,80 +67,76 @@
       },
       {
         "kategorie": "Finanční aktiva",
-        "ikona": "money-bill-1",
-        "popis": "Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aliquam erat volutpat. Aliquam erat volutpat.",
+        "ikona": "fa-money-bill-1",
+        "popis": "Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aliquam erat volutpat. Aliquam erat volutpat. Etiam dui sem, fermentum vitae, sagit tis id, malesuada in, quam.",
         "polozky": [
           {
             "nazev": "INVESTIKA a.s.",
-            "typ": "Otevřený podílový fond NEMO",
+            "banka": "Otevřený podílový fond NEMO",
             "kratky_typ": "Podílový fond",
             "vynos": "5-8,5% p.a.",
-            "obdobi": "15.8. 2024 do 15. 8. 2034",
             "aktiva_hodnota": 125000,
-            "likvidita": "K dispozici do týdne",
-            "horizont": "Střednědobý"
+            "horizont": "Střednědobý",
+            "likvidita": "K dispozici do týdne"
           },
           {
             "nazev": "Komerční banka a.s.",
-            "typ": "Spořící účet",
-            "vynos": "5-8,5% p.a.",
-            "obdobi": "15.8. 2024 do 15. 8. 2034",
+            "banka": "Spořicí účet",
+            "kratky_typ": "Spořicí účet",
+            "vynos": "3,5% p.a.",
             "aktiva_hodnota": 8000,
-            "likvidita": "K dispozici do týdne",
-            "horizont": "Střednědobý"
-          },
-          {
-            "nazev": "Fio Banka a.s.",
-            "typ": "Spořící účet",
-            "vynos": "5-8,5% p.a.",
-            "obdobi": "15.8. 2024 do 15. 8. 2034",
-            "aktiva_hodnota": 50000,
-            "likvidita": "K dispozici do týdne",
-            "horizont": "Střednědobý"
+            "horizont": "Krátkodobý",
+            "likvidita": "Okamžitě"
           }
         ]
       }
     ]
   },
-   "stranka3": {
-       "movity_majetek": [
+  "stranka3": {
+    "titulek": "Movitý majetek a bilance",
+    "popis": "Detailní rozpis movitých věcí, drahých kovů a souvisejících závazků.",
+    "movity_majetek": [
       {
-        "ikona": "check",
-        "hodnota": "250 000 Kč",
-        "sub_text": "BMW x320d",
+        "typ_zaznamu": "aktiva",
+        "hodnota": 250000,
         "titulek": "Auto",
+        "sub_text": "BMW x320d",
         "vynos": "5 - 8,5 % p.a.",
-        "obdobi": "",
-        "tagy": ["Auta & Stroje", "Aktiva", "K dispozici do týdne", "Dlouhodobý"]
+        "kratky_typ": "Auta & Stroje",
+        "horizont": "Dlouhodobý",
+        "tagy": ["Aktiva", "Dlouhodobý"]
       },
       {
-        "ikona": "warn",
-        "hodnota": "- 450 000 Kč",
-        "sub_text": "Moneta a.s.",
+        "typ_zaznamu": "pasiva",
+        "hodnota": -450000,
         "titulek": "Spotřebitelský úvěr",
-        "vynos": "5 - 8,5 % p.a.",
+        "sub_text": "Moneta a.s.",
+        "vynos": "Úrok 5,9 % p.a.",
         "obdobi": "od 15.8. 2024 do 15. 8. 2034",
-        "tagy": ["Úvěr", "Pasiva", "Dlouhodobý"]
+        "kratky_typ": "Úvěr",
+        "tagy": ["Pasiva", "Dlouhodobý"]
       },
       {
-        "ikona": "check",
-        "hodnota": "100 000 Kč",
+        "typ_zaznamu": "aktiva",
+        "hodnota": 100000,
+        "titulek": "Zlaté slitky",
         "sub_text": "Golden Gate a.s.",
-        "titulek": "Golden Gate a.s.",
-        "vynos": "5 - 8,5 % p.a.",
-        "obdobi": "od 15.8. 2024 do 15. 8. 2034",
-        "tagy": ["Drahé kovy", "Aktiva", "K dispozici do týdne", "Střednědobý"]
+        "vynos": "Dle trhu",
+        "kratky_typ": "Drahé kovy",
+        "horizont": "Střednědobý",
+        "tagy": ["Aktiva", "Střednědobý", "Likvidita: Do 14 dnů"]
       }
     ],
-    "bilance": {
-      "aktiva": "4 050 000 Kč",
+    "bilance_majetku": {
+      "aktiva": 4050000,
       "ziskovost": "7.67 %",
-      "pasiva": "3 900 000 Kč",
+      "pasiva": 3900000,
       "nakladovost": "4,5 %",
-      "cisty_majetek": "150 000 Kč",
-      "pomer_pasiv": "24%"
+      "cisty_majetek": 150000,
+      "pomer_pasiv_procento": "24%",
+      "varovani_text": "Výše vašich aktiv se blíží hodnotě vašich pasiv. Kvůli tomu budete méně odolní v případě tržního výkyvu.",
+      "odkaz_strana": 15
     }
-  
   },
   "stranka4": {
     "sekce_horizont": {
